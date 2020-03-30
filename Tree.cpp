@@ -3,9 +3,10 @@
 //
 
 #include "Tree.h"
+#include "Node.h"
 
 Tree::Tree(){
-    root= nullptr
+    root= nullptr;
 };
 
 void Tree::insert(int key, Node* leaf){

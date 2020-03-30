@@ -12,7 +12,15 @@ public:
 
     Node* root;
     Tree();
-    void insert(int key, Node*leaf);
+    void insert(int key, Node *leaf);
+    void delete(int key, Node *leaf);
+    std::string preorder(Node *knoten);
+    std::string inorder(Node *knoten);
+    std::string postorder(Node *knoten);
+    int countnode(Node *k);
+    int countedge(Node *k);
+    int hohe(Node *k);
+
 };
 
 
