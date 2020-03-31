@@ -8,11 +8,11 @@
 
 class Node {
     friend class Tree;
-private:
+public:
     int kn;
     Node* left;
     Node* right;
-protected:
+
     explicit Node(int n){
         kn = n;
         left=right=nullptr;

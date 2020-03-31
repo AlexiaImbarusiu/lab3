@@ -9,5 +9,6 @@ int main() {
     arb.insert(5,arb.root);
     arb.insert(8,arb.root);
     arb.insert(7,arb.root);
+    assert(arb.countnode(arb.root)==5);
     return 0;
 }
