@@ -3,3 +3,12 @@
 //
 
 #include "Node.h"
+Node::Node(int n){
+    kn = n;
+    left=right=nullptr;
+}
+
+Node::Node() {
+    kn = 0;
+    left=right= nullptr;
+}

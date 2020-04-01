@@ -7,7 +7,6 @@
 #include "Node.h"
 
 class Tree {
-    friend class Node;
 
 public:
 
