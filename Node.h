@@ -4,20 +4,14 @@
 
 #ifndef LAB3_NODE_H
 #define LAB3_NODE_H
-#include "Tree.h"
-
 class Node {
-    friend class Tree;
 public:
     int kn;
     Node* left;
     Node* right;
 
-    explicit Node(int n){
-        kn = n;
-        left=right=nullptr;
-    }
-
+    Node();
+    explicit Node(int n);
 };
 
 
